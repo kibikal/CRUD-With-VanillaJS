@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Electronic Store</h1>
+
+      <form action="">
+        <div class="input-wrapper-1">
+          <input type="text" placeholder="ID" name="id" />
+          <input type="text" placeholder="Product Name" name="name" />
+        </div>
+        <div class="input-wrapper-2">
+          <input type="text" placeholder="Seller" name="seller" />
+          <input type="text" placeholder="Price" name="price" />
+        </div>
+
+        <div class="crud-buttons">
+          <button class="btn create-btn">Create</button>
+          <button class="btn read-btn">Read</button>
+          <button class="btn update-btn">Update</button>
+          <button class="btn delete-btn">Delete All</button>
+        </div>
+      </form>
+
+      <table>
+        <tr class="table-headings">
+          <th>ID</th>
+          <th>Product Name</th>
+          <th>Seller</th>
+          <th>Price</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>Milo</td>
+          <td>ABC Ventures</td>
+          <td>GH 125.00</td>
+          <td><i class="fa-regular fa-pen-to-square"></i></td>
+          <td><i class="fa-solid fa-trash-can"></i></td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Nido</td>
+          <td>CDE Ventures</td>
+          <td>GH 150.00</td>
+          <td><i class="fa-regular fa-pen-to-square"></i></td>
+          <td><i class="fa-solid fa-trash-can"></i></td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Biscuit</td>
+          <td>FGH Ventures</td>
+          <td>GH 120.00</td>
+          <td><i class="fa-regular fa-pen-to-square"></i></td>
+          <td><i class="fa-solid fa-trash-can"></i></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
